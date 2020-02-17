@@ -1,0 +1,3 @@
+﻿  10_함수와전략4.cpp
+c:\users\7010master\source\repos\designpattern\10_함수와전략4.cpp(12): warning C4101: 'f1' :참조되지 않은 지역 변수입니다.
+  DesignPattern.vcxproj -> C:\Users\7010master\source\repos\DesignPattern\Debug\DesignPattern.exe
