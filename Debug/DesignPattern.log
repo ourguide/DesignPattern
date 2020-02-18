@@ -1,3 +1,3 @@
-﻿  14_메세지맵2.cpp
-c:\users\7010master\source\repos\designpattern\ioacademy.h(33): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+﻿  21_관찰자.cpp
+c:\users\7010master\source\repos\designpattern\21_관찰자.cpp(31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   DesignPattern.vcxproj -> C:\Users\7010master\source\repos\DesignPattern\Debug\DesignPattern.exe
