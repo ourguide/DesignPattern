@@ -26,11 +26,15 @@ public:
 		case WM_LBUTTONDOWN:
 			self->OnLButtonDown();
 			break;
+		case WM_KEYDOWN:
+			self->OnKeyDown();
+			break;
 		}
 		return 0;
 	}
 
 	virtual void OnLButtonDown() {}
+	virtual void OnKeyDown() {}
 };
 
 map<int, Window*> Window::this_map;
@@ -40,6 +44,7 @@ class MyWindow : public Window
 {
 public:
 	virtual void OnLButtonDown() { cout << "LBUTTON" << endl; }
+	virtual void OnKeyDown() { cout << "KeyDown" << endl; }
 };
 
 int main()
