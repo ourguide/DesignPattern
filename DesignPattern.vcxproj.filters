@@ -144,10 +144,19 @@
     <ClCompile Include="21_관찰자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SampleGraph.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="22_책임의전가.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ioacademy.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IObserver.h">
+      <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -94,7 +94,10 @@
     <ClCompile Include="20_방문자.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="21_관찰자.cpp" />
+    <ClCompile Include="21_관찰자.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="22_책임의전가.cpp" />
     <ClCompile Include="2_thiscall.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -146,9 +149,11 @@
     <ClCompile Include="16_컨테이너3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="SampleGraph.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ioacademy.h" />
+    <ClInclude Include="IObserver.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
