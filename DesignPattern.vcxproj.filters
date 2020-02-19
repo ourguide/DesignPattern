@@ -186,6 +186,12 @@
     <ClCompile Include="31_빌더.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="32_메멘토.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="33_브릿지.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ioacademy.h">
