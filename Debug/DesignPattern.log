@@ -1,3 +1,1 @@
-﻿  22_책임의전가.cpp
-c:\users\7010master\source\repos\designpattern\ioacademy.h(33): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
-  DesignPattern.vcxproj -> C:\Users\7010master\source\repos\DesignPattern\Debug\DesignPattern.exe
+﻿  23_싱글톤2.cpp
