@@ -50,7 +50,7 @@ public:
 	}
 #endif
 
-
+#if 0
 	// 동기화 객체(Mutex)를 사용할 때 예외가 발생하면, 데드락의 확률이 있습니다.
 	// => 생성자/소멸자를 통해 관리하면 좋습니다.
 	// RAII(Resource Acqusion is Initialize) 라는 기술
@@ -63,6 +63,13 @@ public:
 		if (sInstance == 0)
 			sInstance = new Cursor;
 		// sLock.Unlock();
+		return *sInstance;
+	}
+#endif
+
+	static Cursor& getInstance()
+	{
+		static Cursor* sInstance = new Cursor;
 		return *sInstance;
 	}
 };
@@ -95,3 +102,9 @@ int main()
 	Cursor& c2 = Cursor::getInstance();
 	cout << &c1 << ", " << &c2 << endl;
 }
+
+// Modern Language
+// C               ->     Go
+// C++             ->     Rust
+// Java            ->     Kotlin
+// Objective-C     ->     Swift
